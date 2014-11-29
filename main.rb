@@ -5,6 +5,6 @@ require 'sinatra'
 
 ["/", "/list"].each do |path|
   get path do
-    "This multi route thing is working"
+    erb :list
   end
 end
