@@ -3,10 +3,8 @@ require 'bundler/setup'
 
 require 'sinatra'
 
-get '/' do
-	pass
-end
-
-get '/list' do
-	'This is a list!'
+["/", "/list"].each do |path|
+  get path do
+    "This multi route thing is working"
+  end
 end
