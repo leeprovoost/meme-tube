@@ -26,5 +26,5 @@ end
 end
 
 get '/add' do
-	erb :edit
+	erb :add
 end
