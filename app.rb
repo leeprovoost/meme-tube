@@ -6,6 +6,7 @@ require 'sinatra/activerecord'
 
 db = URI.parse('postgres://postgres:@localhost/videos')
 
+# More info on ActiveRecord http://guides.rubyonrails.org/active_record_basics.html
 ActiveRecord::Base.establish_connection(
   :adapter  => db.scheme == 'postgres' ? 'postgresql' : db.scheme,
   :host     => db.host,
