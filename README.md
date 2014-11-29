@@ -10,5 +10,8 @@ Personal playground to build a web app using Ruby, Bundler , Sinatra, Bootstrap 
 
 ## Installation
 
-`bundle install`
+```bundle install```
 
+## Run
+
+```rerun 'ruby main.rb'```
