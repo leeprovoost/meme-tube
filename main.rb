@@ -8,3 +8,7 @@ require 'sinatra'
     erb :list
   end
 end
+
+get '/add' do
+	erb :edit
+end
