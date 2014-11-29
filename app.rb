@@ -20,11 +20,19 @@ end
 
 ["/", "/list"].each do |path|
   get path do
-  	@videos = Video.all
+  	@videos = Video.all.order('id DESC')
     erb :list
   end
 end
 
 get '/add' do
 	erb :add
+end
+
+post '/add' do
+	video = Video.create(	title: params[:title],
+							description: params[:description],
+							video_id: params[:video_id],
+							genre: params[:genre] )
+	redirect to('/list')
 end

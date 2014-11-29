@@ -1,6 +1,7 @@
 <h1>Add a new movie</h1>
 <p class="lead">Found a good YouTube movie that you want to share with the Meme Tube community? Add it here!</p>
 
+<form action="/add" method="POST">
 <p>
 	<div class="row">
   		<table class="table">
@@ -16,10 +17,10 @@
 
     	<tbody>
     		<tr>
-    			<td><input /></td>
-    			<td><input /></td>
-    			<td><input /></td>
-    			<td><input /></td>
+    			<td><input type="text" id="title" name="title"/></td>
+    			<td><input type="text" id="description" name="description"/></td>
+    			<td><input type="text" id="video_id" name="video_id"/></td>
+    			<td><input type="text" id="genre" name="genre"/></td>
     		</tr>
     	</tbody>
 
@@ -28,5 +29,6 @@
 </p>
 
 <p>
-<button type="button" class="btn btn-sm btn-default">Submit new video</button>
+<button type="submit" class="btn btn-sm btn-default">Submit new video</button>
 </p>
+</form>
