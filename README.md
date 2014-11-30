@@ -1,6 +1,6 @@
 # meme-tube
 
-Personal playground to build a web app using Ruby, Bundler , Sinatra, Bootstrap and Docker. Note: this is my first ever Ruby app so forgive me for n00b mistakes.
+Personal playground to build a web app using Ruby, Bundler , Sinatra and Bootstrap. Note: this is my first ever Ruby app so forgive me for n00b mistakes.
 
 ## Pre-requisites
 
