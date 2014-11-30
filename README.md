@@ -8,6 +8,7 @@ Personal playground to build a web app using Ruby, Bundler , Sinatra, Bootstrap 
 * Ensure you have your PATH set up properly so that your Gem bins are accessible
 * Bundler: `gem install bundler`
 * Rerun: `gem install rerun`
+* Postgres database (I'm using 9.3). SQL scripts are in database/script.sql
 
 ## Installation
 
