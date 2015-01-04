@@ -1,6 +1,8 @@
-# meme-tube
+# poc-ruby-sinatra
 
-Personal playground to build a web app using Ruby, Bundler , Sinatra and Bootstrap. Note: this is my first ever Ruby app so forgive me for n00b mistakes.
+Proof-of-Concept application to learn about Ruby and Sinatra. This is part of my ["learn a new thing every month" project](http://leeprovoost.github.io/). 
+
+This web app allows you to add a YouTube link to your app and build a repository of video links. There is also an embedded YouTube player.
 
 ## Pre-requisites
 
