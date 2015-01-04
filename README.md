@@ -1,6 +1,6 @@
 # poc-ruby-sinatra
 
-Proof-of-Concept application to learn about Ruby and Sinatra. This is part of my ["learn a new thing every month" project](http://leeprovoost.github.io/). 
+Proof-of-Concept application to learn about Ruby, Sinatra and Bootstrap. This is part of my ["learn a new thing every month" project](http://leeprovoost.github.io/). 
 
 This web app allows you to add a YouTube link to your app and build a repository of video links. There is also an embedded YouTube player.
 
